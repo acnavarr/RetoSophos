@@ -1,0 +1,7 @@
+# RetoSophos
+
+Se realiza el proceso automatizado de agragar a un carrito de compras un producto seleccionado de la página TOTTUS.
+
+
+Se procede a ingresar a la página web https://www.tottus.com.pe/tottus/ y buscar un producto, se recorre la lista que arrojo las busqueda
+y con una referencia especifica se selecciona un prodcuto, finalmente se validad que quede agregado en el carrito de compras.
