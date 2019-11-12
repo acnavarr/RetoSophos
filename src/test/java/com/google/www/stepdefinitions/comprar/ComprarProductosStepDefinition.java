@@ -22,14 +22,10 @@ public class ComprarProductosStepDefinition {
         andres.can( BrowseTheWeb.with( hisBrowser ) );
     }
 
-
     @When("^agrega un (.*) de refencia (.*)$")
     public void agregaUnProductoDeRefencia(String producto, String referecia){
         andres.attemptsTo(AgregarProducto.alCarrito(producto,referecia));
-
-
     }
-
 
     @Then("^Valida carrito de compras$")
     public void validaCarritoDeCompras() {

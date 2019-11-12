@@ -2,7 +2,6 @@ package com.google.www.tasks;
 
 
 import static com.google.www.userinterfaces.HomeTottusPage.*;
-
 import com.google.www.interactions.Seleccionar;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -26,10 +25,9 @@ public class AgregarProducto implements Task {
         actor.attemptsTo(
                 Click.on(LBL_BUSCAR),
                 Enter.theValue(producto).into(LBL_BUSCAR),
-                Click.on(BTN_BUSCAR)
+                Click.on(BTN_BUSCAR),
+                Seleccionar.producto(referencia)
 
-        );
-        actor.attemptsTo( Seleccionar.producto(referencia)
         );
 
     }

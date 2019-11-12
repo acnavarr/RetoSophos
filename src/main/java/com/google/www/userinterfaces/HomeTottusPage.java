@@ -14,7 +14,6 @@ public class HomeTottusPage extends PageObject {
     public static final Target BTN_BUSCAR = Target.the("Boton buscar").located(By.id("atg_store_searchSubmit_top"));
     public static final Target LIST_PRODUCTOS = Target.the("Lista de productos").located(By.xpath("//*[@class='title']"));
     public static final Target BTN_AGREGAR = Target.the("Boton agregar productos").located(By.xpath("//*[contains(@id,'atg_behavior_addItemToCart')]"));
-    public static final Target BTN_CARRITO = Target.the(" carrito").located(By.xpath("//*[contains(@class,'atg_store_viewCart dropdown')]"));
     public static final Target LIST_CARRITO = Target.the("Productos en el carrito").located(By.xpath("//*[contains(@class,'atg_store_richCartItemDescription')]"));
 
 
